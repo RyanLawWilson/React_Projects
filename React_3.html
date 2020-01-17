@@ -3,19 +3,29 @@
 	<head>
 		<title>Third React Project</title>
 		<meta charset = "utf-8">
-		
+
 		<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
         <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min/js" type="text/babel"></script>
+        <!-- <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min/js" type="text/babel"></script> -->
 	</head>
 	<body>
         <div id="JSX"></div>
-        
 
-        <script>
+        <!-------------------------------------------------------------
+            I'm not getting any more errors but nothing is showing up on my screen.  I don't know why.
+            I've spent a couple hours trying to figure it out to no avail.
+
+            The console just shows me this:
+            Download the React DevTools for a better development
+            experience: https://fb.me/react-devtoolsYou
+            might need to use a local HTTP server (instead of file://):
+            https://fb.me/react-devtools-faq
+        --------------------------------------------------------------->
+
+        <script type="text/babel">
             class Greeting extends React.Component {
                 render() {
-                    return <h1>Hello, World!</h1>;
+                    return <h1>Hello, World!</h1>
                 }
             }
 
